@@ -8,7 +8,7 @@ import time
 
 def ding(title, options: dict):
     content = '\n'.join([f"+ **{k}**：{v}" for k, v in options.items()])
-    secret = 'SEC789e87081fc800363b6520cd4d0dea9aeb151adf3ca22a83ab1ff67be8e408ba'
+    secret = 'xxx'
     token = '00c14a94c66e0223d71145811827f81468de45d22475b8f3c7e21c62c2c729b6'
     timestamp = int(time.time() * 1000)
     data = (str(timestamp) + '\n' + secret).encode('utf-8')
