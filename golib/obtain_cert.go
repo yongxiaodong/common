@@ -1,4 +1,4 @@
-package Models
+package golib
 
 import (
 	"crypto"
